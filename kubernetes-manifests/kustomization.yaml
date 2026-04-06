@@ -39,6 +39,6 @@ resources:
 # - ../kustomize/components/container-images-registry
 images:
 - name: vicv369/adservice
-  newTag: "latest" # Jenkins sẽ tự đổi chữ này thành số build
+  newTag: '41'
 - name: vicv369/frontend-demo
-  newTag: "latest"
+  newTag: '41'
