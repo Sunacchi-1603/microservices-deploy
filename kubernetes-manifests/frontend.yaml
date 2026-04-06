@@ -35,6 +35,8 @@ spec:
         runAsGroup: 1000
         runAsNonRoot: true
         runAsUser: 1000
+      imagePullSecrets:       # Thêm dòng này
+      - name: dockerhub-creds  
       containers:
         - name: server
           securityContext:
