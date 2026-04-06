@@ -43,7 +43,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: productcatalogservice
+        image: vicv369/productcatalogservice:39
         ports:
         - containerPort: 3550
         env:

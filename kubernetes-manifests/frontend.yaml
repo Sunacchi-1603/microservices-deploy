@@ -44,7 +44,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: frontend
+          image: vicv369/frontend-demo:39
           ports:
           - containerPort: 8080
           readinessProbe:

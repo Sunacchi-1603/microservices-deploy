@@ -77,7 +77,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: loadgenerator
+        image: vicv369/loadgenerator:39
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"
