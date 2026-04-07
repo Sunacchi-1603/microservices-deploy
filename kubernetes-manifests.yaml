@@ -282,7 +282,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: vicv369/productcatalogservice:v23
+          image: vicv369/checkoutservice:v23
           ports:
           - containerPort: 5050
           readinessProbe:
@@ -438,7 +438,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: vicv369/shippingservice:v23
+        image: vicv369/cartservice:v23
         ports:
         - containerPort: 7070
         env:
@@ -510,7 +510,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: vicv369/cartservice:v23
+        image: redis:alpine
         ports:
         - containerPort: 6379
         readinessProbe:
@@ -730,7 +730,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: vicv369/paymentservice:v23
+          image: vicv369/frontend:v23
           ports:
           - containerPort: 8080
           readinessProbe:
@@ -934,7 +934,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: vicv369/recommendationservice:v23
+        image: vicv369/adservice:v23
         ports:
         - containerPort: 9555
         env:
