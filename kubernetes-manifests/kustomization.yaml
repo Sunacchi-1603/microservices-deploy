@@ -40,7 +40,7 @@ resources:
 
 # images:
 # - name: vicv369/adservice
-#   newTag: '41'
+#   newTag: '7'
 # - name: vicv369/frontend-demo
-#   newTag: '41'
+#   newTag: '7'
 
