@@ -43,7 +43,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: vicv369/recommendationservice:39
+        image: vicv369/recommendationservice:3
         ports:
         - containerPort: 8080
         readinessProbe:

@@ -45,7 +45,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: vicv369/cartservice:39
+        image: vicv369/cartservice:3
         ports:
         - containerPort: 7070
         env:

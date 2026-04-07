@@ -45,7 +45,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: vicv369/paymentservice:39
+        image: vicv369/paymentservice:33
         ports:
         - containerPort: 50051
         env:

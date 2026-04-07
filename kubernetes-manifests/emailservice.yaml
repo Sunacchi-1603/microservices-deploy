@@ -45,7 +45,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: vicv369/emailservice:39
+        image: vicv369/emailservice:3
         ports:
         - containerPort: 8080
         env:

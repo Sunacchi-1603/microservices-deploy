@@ -44,7 +44,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: vicv369/checkoutservice:39
+          image: vicv369/checkoutservice:3
           ports:
           - containerPort: 5050
           readinessProbe:

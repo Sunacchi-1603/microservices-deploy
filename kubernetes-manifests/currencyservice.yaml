@@ -45,7 +45,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: vicv369/currencyservice:39
+        image: vicv369/currencyservice:3
         ports:
         - name: grpc
           containerPort: 7000

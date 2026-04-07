@@ -37,8 +37,10 @@ resources:
 # - ../kustomize/components/container-images-tag
 # - ../kustomize/components/container-images-tag-suffix
 # - ../kustomize/components/container-images-registry
-images:
-- name: vicv369/adservice
-  newTag: '6'
-- name: vicv369/frontend-demo
-  newTag: '6'
+
+# images:
+# - name: vicv369/adservice
+#   newTag: '41'
+# - name: vicv369/frontend-demo
+#   newTag: '41'
+
