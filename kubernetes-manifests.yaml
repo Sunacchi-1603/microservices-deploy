@@ -730,7 +730,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: vicv369/frontend:v23
+          image: vicv369/frontend:v25
           ports:
           - containerPort: 8080
           readinessProbe:
@@ -857,7 +857,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: vicv369/recommendationservice:v23
+        image: vicv369/frontend:v25
         ports:
         - containerPort: 8080
         readinessProbe:
