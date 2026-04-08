@@ -46,34 +46,37 @@ resources:
 images:
 - name: vicv369/adservice
   newName: vicv369/adservice
-  newTag: v34
+  newTag: v35
+- name: vicv369/cartservice
+  newName: vicv369/cartservice
+  newTag: v35
 - name: vicv369/checkoutservice
   newName: vicv369/checkoutservice
-  newTag: v34
+  newTag: v35
 - name: vicv369/currencyservice
   newName: vicv369/currencyservice
-  newTag: v34
+  newTag: v35
 - name: vicv369/emailservice
   newName: vicv369/emailservice
-  newTag: v34
+  newTag: v35
 - name: vicv369/frontend
   newName: vicv369/frontend
-  newTag: v34
+  newTag: v35
 - name: vicv369/loadgenerator
   newName: vicv369/loadgenerator
-  newTag: v34
+  newTag: v35
 - name: vicv369/paymentservice
   newName: vicv369/paymentservice
-  newTag: v34
+  newTag: v35
 - name: vicv369/productcatalogservice
   newName: vicv369/productcatalogservice
-  newTag: v34
+  newTag: v35
 - name: vicv369/recommendationservice
   newName: vicv369/recommendationservice
-  newTag: v34
+  newTag: v35
 - name: vicv369/shippingservice
   newName: vicv369/shippingservice
-  newTag: v34
+  newTag: v35
 - name: vicv369/shoppingassistantservice
   newName: vicv369/shoppingassistantservice
-  newTag: v34
+  newTag: v35
