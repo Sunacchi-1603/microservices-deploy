@@ -43,4 +43,5 @@ resources:
 #   newTag: '8'
 # - name: vicv369/frontend-demo
 #   newTag: '8'
+images: []
 
