@@ -49,7 +49,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: vicv369/currencyservice:v23
+        image: vicv369/currencyservice:v27
         ports:
         - name: grpc
           containerPort: 7000
@@ -145,7 +145,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: vicv369/loadgenerator:v23
+        image: vicv369/currencyservice:v27
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"
@@ -210,7 +210,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: vicv369/productcatalogservice:v23
+        image: vicv369/productcatalogservice:v27
         ports:
         - containerPort: 3550
         env:
@@ -282,7 +282,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: vicv369/checkoutservice:v23
+          image: vicv369/productcatalogservice:v27
           ports:
           - containerPort: 5050
           readinessProbe:
@@ -364,7 +364,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: vicv369/shippingservice:v23
+        image: vicv369/shippingservice:v27
         ports:
         - containerPort: 50051
         env:
@@ -438,7 +438,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: vicv369/cartservice:v23
+        image: vicv369/shippingservice:v27
         ports:
         - containerPort: 7070
         env:
@@ -581,7 +581,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: vicv369/emailservice:v23
+        image: vicv369/emailservice:v27
         ports:
         - containerPort: 8080
         env:
@@ -656,7 +656,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: vicv369/emailservice:v23
+        image: vicv369/emailservice:v27
         ports:
         - containerPort: 50051
         env:
@@ -730,7 +730,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: vicv369/frontend:v25
+          image: vicv369/frontend:v27
           ports:
           - containerPort: 8080
           readinessProbe:
@@ -857,7 +857,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: vicv369/frontend:v25
+        image: vicv369/frontend:v27
         ports:
         - containerPort: 8080
         readinessProbe:
@@ -934,7 +934,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: vicv369/adservice:v23
+        image: vicv369/recommendationservice:v27
         ports:
         - containerPort: 9555
         env:
