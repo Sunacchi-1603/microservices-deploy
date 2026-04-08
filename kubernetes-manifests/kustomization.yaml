@@ -61,7 +61,7 @@ images:
   newTag: v35
 - name: vicv369/frontend
   newName: vicv369/frontend
-  newTag: v35
+  newTag: v36
 - name: vicv369/loadgenerator
   newName: vicv369/loadgenerator
   newTag: v35
